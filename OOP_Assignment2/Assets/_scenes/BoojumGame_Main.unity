@@ -302,6 +302,7 @@ GameObject:
   - component: {fileID: 592823445}
   - component: {fileID: 592823447}
   - component: {fileID: 592823448}
+  - component: {fileID: 592823449}
   m_Layer: 0
   m_Name: Asteroid
   m_TagString: Untagged
@@ -374,6 +375,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9abdfcc378c63a4f87a42ec81bdf1ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosion: {fileID: 100004, guid: 2857e183f4cd3df4e9096e5b578bd32f, type: 2}
+  playerExplosion: {fileID: 100008, guid: a93496017806b7740910df5fd946f306, type: 2}
+--- !u!114 &592823449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 592823443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81ef77d7468dee4dbe6aa9a64f8838f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: -5
 --- !u!1 &593569810
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,8 +400,8 @@ GameObject:
   - component: {fileID: 593569812}
   - component: {fileID: 593569811}
   m_Layer: 0
-  m_Name: Boundry
-  m_TagString: Untagged
+  m_Name: Boundary
+  m_TagString: Boundary
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -747,6 +762,10 @@ Prefab:
     - target: {fileID: 100000, guid: d9808401c68af274a8edfbed3d1b53c7, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d9808401c68af274a8edfbed3d1b53c7, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d9808401c68af274a8edfbed3d1b53c7, type: 3}
