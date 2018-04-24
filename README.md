@@ -6,4 +6,4 @@ Our repository for the OOP assignment two - Niall O'Brien, Shane Gannon &amp; Ad
 - Description: Game based on Unity Tutorials. Fly your ship around while dodging and blasting high speed asteroids with your lazer cannon.
 			   Game uses Unity Engine with prefab elements, meshes, C# code, event handlers, etc
 - What I did: Implement full game
-- Video: 
+- Video: https://youtu.be/5VuM4zqA1gU
