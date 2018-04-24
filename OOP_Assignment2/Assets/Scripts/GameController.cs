@@ -13,6 +13,7 @@ public class GameController : MonoBehaviour
 	public GUIText scoreText;
 	public GUIText restartText;
 	public GUIText gameOverText;
+	public GUIText finalScoreText;
 
 	private bool gameOver;
 	private bool restart;
@@ -22,6 +23,7 @@ public class GameController : MonoBehaviour
 	{
 		gameOver = false;
 		restart = false;
+		finalScoreText.text = "";
 		restartText.text = "";
 		gameOverText.text = "";
 		score = 0;
@@ -33,7 +35,7 @@ public class GameController : MonoBehaviour
 	{
 		if (restart)
 		{
-			if (Input.GetKeyDown (KeyCode.R))
+			if (Input.GetKeyDown (KeyCode.Space))
 			{
 				Application.LoadLevel (Application.loadedLevel);
 			}
@@ -56,7 +58,7 @@ public class GameController : MonoBehaviour
 
 			if (gameOver)
 			{
-				restartText.text = "Press 'R' for Restart";
+				restartText.text = "Press 'Space' for Restart";
 				restart = true;
 				break;
 			}
@@ -78,5 +80,7 @@ public class GameController : MonoBehaviour
 	{
 		gameOverText.text = "Game Over!";
 		gameOver = true;
+		finalScoreText.text = "Final Score: " + score;
+		scoreText.text = "";
 	}
 }
