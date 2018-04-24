@@ -145,7 +145,7 @@ GUIText:
   m_TabSize: 4
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Material: {fileID: 0}
-  m_FontSize: 15
+  m_FontSize: 20
   m_FontStyle: 0
   m_Color:
     serializedVersion: 2
@@ -774,7 +774,7 @@ GUIText:
   m_TabSize: 4
   m_Font: {fileID: 0}
   m_Material: {fileID: 0}
-  m_FontSize: 15
+  m_FontSize: 20
   m_FontStyle: 0
   m_Color:
     serializedVersion: 2
@@ -818,7 +818,7 @@ GUIText:
   m_GameObject: {fileID: 1826193546}
   m_Enabled: 1
   serializedVersion: 3
-  m_Text: GameOver Text
+  m_Text: Game Over!
   m_Anchor: 4
   m_Alignment: 1
   m_PixelOffset: {x: 0, y: 0}
@@ -826,7 +826,7 @@ GUIText:
   m_TabSize: 4
   m_Font: {fileID: 0}
   m_Material: {fileID: 0}
-  m_FontSize: 15
+  m_FontSize: 25
   m_FontStyle: 0
   m_Color:
     serializedVersion: 2
@@ -1088,7 +1088,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 878b751d0ac571345b18b435e33163b2, type: 2}
+  - {fileID: 2100000, guid: d19c817b9799c5b448cae58fcc79f1e7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1123,7 +1123,7 @@ Transform:
   m_GameObject: {fileID: 2078691797}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: -10, z: 0}
-  m_LocalScale: {x: 15, y: 30, z: 1}
+  m_LocalScale: {x: 15, y: 25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
